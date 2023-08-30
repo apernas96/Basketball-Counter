@@ -10,14 +10,50 @@
 
 <body>
     <div class="container">
-        <div>
+        <div class="whole-team">
             <h3>HOME</h3>
+            <div class="score">
+                <p id="home-scr">-</p>
+            </div>
+            <div class="container-btns">
+                <div id="one-point" class="container-btn">
+                    <button onclick="onePointH()">+1</button>
+                </div>
+                <div id="two-points" class="container-btn">
+                    <button onclick="twoPointsH()">+2</button>
+                </div>
+                <div id="three-points" class="container-btn">
+                    <button onclick="threePointsH()">+3</button>
+                </div>
+            </div>
         </div>
-        <div>
+        <div class="reset-btns">
+            <div class="reset-btn">
+                <button onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <div class="whole-team">
             <h3>GUEST</h3>
+            <div class="score">
+                <p id="guest-scr">-</p>
+            </div>
+            <div class="container-btns">
+                <div id="one-point" class="container-btn">
+                    <button onclick="onePointG()">+1</button>
+                </div>
+                <div id="two-points" class="container-btn">
+                    <button onclick="twoPointsG()">+2</button>
+                </div>
+                <div id="three-points" class="container-btn">
+                    <button onclick="threePointsG()">+3</button>
+                </div>
+            </div>
         </div>
     </div>
-    <script src="./JS/app.js" defer></script>
+
+
+    <script src=" ./JS/app.js" defer>
+    </script>
 </body>
 
 </html>

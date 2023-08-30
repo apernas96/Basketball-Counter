@@ -1,8 +1,103 @@
 body {
     margin: 0;
+    background: linear-gradient(#1B244A, orange);
+    min-height: 100vh;
+}
+
+.whole-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.container-btns {
+    display: flex;
+    justify-content: space-around;
+    height: 45 px;
+    width: 145 px;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+}
+
+.reset-btns {
+    display: flex;
+    align-items: center;
+}
+
+.reset-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+}
+
+button {
+    background-color: transparent;
+    border-width: 0px;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.812px;
+}
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    flex-shrink: 0;
+    background: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#home-scr {
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL !important;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    display: contents
+}
+
+#guest-scr {
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL !important;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.666px;
+    display: contents
 }
