@@ -9,43 +9,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="whole-team">
+    <div class="container flex">
+        <div class="whole-team flex">
             <h3>HOME</h3>
-            <div class="score">
+            <div class="score flex">
                 <p id="home-scr">-</p>
             </div>
-            <div class="container-btns">
-                <div id="one-point" class="container-btn">
-                    <button onclick="onePointH()">+1</button>
+            <div class="container-btns flex">
+                <div id="one-point" class="container-btn flex">
+                    <button onclick="addPointsHome(1)">+1</button>
                 </div>
-                <div id="two-points" class="container-btn">
-                    <button onclick="twoPointsH()">+2</button>
+                <div id="two-points" class="container-btn flex">
+                    <button onclick="addPointsHome(2)">+2</button>
                 </div>
-                <div id="three-points" class="container-btn">
-                    <button onclick="threePointsH()">+3</button>
+                <div id="three-points" class="container-btn flex">
+                    <button onclick="addPointsHome(3)">+3</button>
                 </div>
             </div>
         </div>
-        <div class="reset-btns">
-            <div class="reset-btn">
+        <div class="reset-btns flex">
+            <div class="reset-btn flex">
                 <button onclick="reset()">RESET</button>
             </div>
         </div>
-        <div class="whole-team">
+        <div class="whole-team flex">
             <h3>AWAY</h3>
-            <div class="score">
+            <div class="score flex">
                 <p id="guest-scr">-</p>
             </div>
-            <div class="container-btns">
-                <div id="one-point" class="container-btn">
-                    <button onclick="onePointG()">+1</button>
+            <div class="container-btns flex">
+                <div id="one-point" class="container-btn flex">
+                    <button onclick="addPointsAway(2)">+1</button>
                 </div>
-                <div id="two-points" class="container-btn">
-                    <button onclick="twoPointsG()">+2</button>
+                <div id="two-points" class="container-btn flex">
+                    <button onclick="addPointsAway(2)">+2</button>
                 </div>
-                <div id="three-points" class="container-btn">
-                    <button onclick="threePointsG()">+3</button>
+                <div id="three-points" class="container-btn flex">
+                    <button onclick="addPointsAway(3)">+3</button>
                 </div>
             </div>
         </div>
